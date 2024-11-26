@@ -1,0 +1,50 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+// <width>: Use a value from 75 to 100 */
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+}
