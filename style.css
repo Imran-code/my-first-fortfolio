@@ -57,6 +57,10 @@ nav li a{
  background-repeat: no-repeat;
  background-position: bottom right;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
@@ -99,5 +103,16 @@ nav li a{
     font-size: 18px;
     text-align: center;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 130px 150px;
 }
 
